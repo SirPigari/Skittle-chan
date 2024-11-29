@@ -1,0 +1,8 @@
+other/
+get_personal_data.py
+.venv/
+__pycache__/
+.idea/
+html/
+nudes/*
+!nudes/
