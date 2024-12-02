@@ -8,9 +8,26 @@ A fun and interactive Discord bot for your servers! Follow the instructions belo
 📥 Getting Started
 ------------------
 
-### 1\. Download the Bot Files
+### 1\. Clone the Bot Files
 
-Clone or download the repository containing the bot files and save them to a directory on your local machine.
+Clone the repository containing the bot files and save them to a directory on your local machine.
+
+Cd to directory where you want to create the skittle-chan (eg.: `C:/Documents`)
+
+```BATCH
+:: Navigate to the directory where you want to clone the repository
+cd "C:\Documents"
+
+:: Create the directory
+mkdir "skittle-chan"
+
+:: Clone the repository into a directory named 'skittle-chan'
+git clone "https://github.com/SirPigari/Skittle-chan/" "skittle-chan"
+
+:: Navigate into the cloned repository
+cd "skittle-chan"
+```
+
 
 * * *
 
