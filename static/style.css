@@ -1,0 +1,346 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBDCDD; /* Light Pink Background */
+    color: #333; /* Dark Text */
+}
+
+/* Center the container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+form.login {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px; /* Rounded corners */
+    width: 100%;
+    max-width: 400px; /* Restrict maximum width */
+    text-align: center; /* Center the text inside */
+}
+
+.login-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Input fields */
+form.login input[type="email"],
+form.login input[type="text"],
+form.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Input focus effect */
+form.login input[type="email"]:focus,
+form.login input[type="text"]:focus,
+form.login input[type="password"]:focus {
+    outline: none;
+    border-color: #5865f2;
+    box-shadow: 0 0 5px rgba(88, 101, 242, 0.5);
+}
+
+/* Submit button */
+form.login button {
+    background: #5865f2;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+form.login button:hover {
+    background: #4752b4;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    form.login {
+        width: 90%;
+    }
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+}
+
+/* General container for forms */
+.form-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Give the form a nice width */
+    margin-bottom: 20px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #5865f2; /* Custom Blurple */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;  /* Position it relative to its container */
+    right: 20px;  /* Adjust the distance from the right */
+}
+
+.form-button:hover {
+    background-color: #7289da;
+}
+
+
+/* Centered List Styles */
+ul {
+    padding: 0;
+    margin-top: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    background-color: #f4f4f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Position content and buttons properly */
+    text-align: left;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    position: absolute;
+    top: 20px;        /* 20px from the top edge */
+    right: 20px;      /* 20px from the right edge */
+    padding: 10px 20px;
+    background-color: #5865f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: center;  /* Center the buttons horizontally */
+    gap: 15px;  /* Space between buttons */
+    margin-top: 20px;  /* Optional space from the text */
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background-color: #5865f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;  /* Make it visually clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* Add smooth transition */
+}
+
+/* Cursor changes to pointer on hover */
+.home-btn:hover {
+    background-color: #4752cc;  /* Darker shade when hovered */
+}
+
+
+
+a:hover {
+    background-color: #7289da;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.edit-btn, .remove-btn {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #5865f2;
+    color: white;
+    border-radius: 5px;
+}
+
+.edit-btn:hover, .remove-btn:hover {
+    background-color: #7289da;
+}
+
+/* Form Styling */
+#add-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 300px; /* Add width for the form */
+    text-align: left;
+}
+
+/* Add Key and Value Inputs */
+#add-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#add-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add Data Button */
+#add-form button {
+    background-color: #5865f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#add-form button:hover {
+    background-color: #7289da;
+}
+
+/* Modals Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px; /* Adjust for better modal width */
+    text-align: center;
+}
+
+.modal-content input[type="text"],
+.modal input[type="text"] {
+    width: calc(100% - 5px); /* Adjusting the width to leave 5px from the right */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding and border are considered in width calculation */
+}
+
+.modal button {
+    background-color: #5865f2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal button:hover {
+    background-color: #7289da;
+}
+
+#edit-modal, #remove-modal {
+    display: flex; /* Display modals as flex to align centrally */
+}
+
+/* Modal Styles Specific to Edit & Remove Modals */
+#edit-modal h2, #remove-modal h2 {
+    color: #333;
+}
+
+#edit-value {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#add-form-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#add-form-container .form-btn {
+    font-size: 2em;
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#add-form-container .form-btn:hover {
+    background-color: #7289da;
+}
